@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "target": "ES2020",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "outDir": "./dist",
+
+  
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "moduleDetection": "force",
+    "allowJs": true,
+
+
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+
+  
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/.spec.ts",
+    "/.test.",
+    "./dist//",
+    "../common/**/test.",
+    "**/.spec.ts",
+    "tests"
+  ]
+}
